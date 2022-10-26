@@ -18,7 +18,7 @@
             </tr>
             {% for key, value in notes.items() %}
             <tr>
-                <td>{{ value.title }}</td>
+                <td><a href="notes/{key}}">{{ value.title }}</a></td>
                 <td>{{ value.date }}</td>
             </tr>
             {% endfor %}
